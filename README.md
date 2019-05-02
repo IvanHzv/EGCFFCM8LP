@@ -1,7 +1,9 @@
-# EnableGcam-FixFrontCamera-MI8Lite-Pie
-ncandroid84 @ xda-developers
+# Magisk Module Template
 
-Descriptión:
+This `README.md` will be shown in Magisk Manager. Place any information / changelog / notes you like.
 
-This module is made for the Xiaomi MI 8 Lite (Platina), Android Pie 9.0 Stock and Custom Rom. Enable the Gcam adding some lines to the build.prop and fix the front camera to work with the Gcam, adding the modified library for it.
-The front camera of the stock will stop working !! (there is no solution for this)
+**Please update `README.md` if you want to submit your module to the online repo!**
+
+Github has its own online markdown editor with a preview feature, you can use it to update your `README.md`! If you need more advanced syntax, check the [Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+For more information about modules and repos, please check the [official documentations](https://github.com/topjohnwu/Magisk/blob/master/docs/modules.md)
