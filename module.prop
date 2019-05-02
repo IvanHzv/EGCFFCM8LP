@@ -1,7 +1,0 @@
-id=GcamEnableandFixFC
-name=EnableGcam+FixFrontCamera-Mi8Lite-Pie
-version=1.0
-versionCode=1
-author=ncandroid84
-description=This module enable Gcam and fix front camera on Xiaomi Mi8Lite
-minMagisk=17100
