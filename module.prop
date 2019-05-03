@@ -1,6 +1,7 @@
-id=EGFCM8LP
+id=EGCFFCM8LP
 name=EnableGcam+FixFrontCamera-MI8Lite-Pie
 version=v1
 versionCode=1
-author=ncandroid84
+author=ncandroid84 @ xda-developer
 description=This módule enable gcam and fix front camera for xiaomi MI8Lite with android Pie
+minMagisk=17100
