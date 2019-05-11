@@ -127,10 +127,13 @@ print_modname() {
 # Copy/extract your module files into $MODPATH in on_install.
 
 on_install() {
-  # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
-  # Extend/change the logic to whatever you want
-  ui_print "- Extracting module files"
-  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  # install only on Xiaomi MI 8 Lite (Platina) Pie+
+  if [[ $(getprop ro.product.device | grep .. || getprop ro.build.product) == platina ]] && [[ $API -ge 28 ]]; then
+    ui_print "- Extracting module files"
+    unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  else
+    abort "This is only for Xiaomi MI 8 Lite (Platina) Pie!"
+  fi
 }
 
 # Only some special files require specific permissions
@@ -149,3 +152,8 @@ set_permissions() {
 }
 
 # You can add more functions to assist your custom script code
+
+
+
+
+
