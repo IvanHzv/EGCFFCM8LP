@@ -4,3 +4,4 @@ version=v1.0
 versionCode=100
 author=ncandroid84 @ xda-developer
 description=This módule enable gcam and fix front camera for xiaomi MI8Lite with android Pie
+minMagisk=18100
