@@ -2,8 +2,7 @@ EnableGcam+FixFrontCamera-MI8Lite-Pie (Platina)
 -
 ncandroid84 @ xda-developers
 -
-13/05/2019
-Initial Versión v1.0
+Initial Versión v1.0  13/05/2019
 
 Descriptión:
 -
