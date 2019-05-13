@@ -70,11 +70,11 @@ $BOOTMODE && boot_actions || recovery_actions
 ##########################################################################################
 
 # Extract common files
-unzip -o "$ZIP" module.prop config.sh 'common/*' -d $INSTALLER >&2
+unzip -o "$ZIP" module.prop install.sh 'common/*' -d $INSTALLER >&2
 
-[ ! -f $INSTALLER/config.sh ] && abort "! Unable to extract zip file!"
+[ ! -f $INSTALLER/install.sh ] && abort "! Unable to extract zip file!"
 # Load configurations
-. $INSTALLER/config.sh
+. $INSTALLER/install.sh
 
 # Check the installed magisk version
 MIN_VER=`grep_prop minMagisk $INSTALLER/module.prop`
