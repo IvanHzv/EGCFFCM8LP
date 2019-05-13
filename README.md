@@ -1,6 +1,4 @@
-EnableGcam+FixFrontCamera-MI8Lite-Pie
--
-Code name: PLATINA
+EnableGcam+FixFrontCamera-MI8Lite-Pie (Platina)
 -
 ncandroid84 @ xda-developers
 -
