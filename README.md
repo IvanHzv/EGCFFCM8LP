@@ -5,10 +5,8 @@ Code name: PLATINA
 ncandroid84 @ xda-developers
 -
 #########################
-13/05/2019
--
-Initial Versión v1.0
--
+ 13/05/2019
+ Initial Versión v1.0
 #########################
 Descriptión:
 -
