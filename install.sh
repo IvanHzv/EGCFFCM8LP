@@ -25,13 +25,16 @@
 SKIPMOUNT=false
 
 # Set to true if you need to load system.prop
-PROPFILE=false
+PROPFILE=true
 
 # Set to true if you need post-fs-data script
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
 LATESTARTSERVICE=false
+
+# Most mods would like it to be enabled
+AUTOMOUNT=true
 
 ##########################################################################################
 # Replace list
@@ -43,7 +46,10 @@ LATESTARTSERVICE=false
 # Construct your list in the following format
 # This is an example
 REPLACE_EXAMPLE="
-/system/vendor/lib
+/system/app/Youtube
+/system/priv-app/SystemUI
+/system/priv-app/Settings
+/system/framework
 "
 
 # Construct your own list here
@@ -114,6 +120,10 @@ REPLACE="
 # ONLY use module scripts as it respects the module status (remove/disable) and is
 # guaranteed to maintain the same behavior in future Magisk releases.
 # Enable boot scripts by setting the flags in the config section above.
+##########################################################################################
+
+##########################################################################################
+# Installation Message
 ##########################################################################################
 
 # Set what you want to display when installing your module
