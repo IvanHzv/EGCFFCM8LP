@@ -6,7 +6,7 @@ ncandroid84 @ xda-developers
 Initial Release v1.0  13/05/2019
 
 --------------------------------------------------------------------------------------
-Update v1.1 21/05/2019
+Update v1.2 21/05/2019
 
 Change of name to find faster
 
