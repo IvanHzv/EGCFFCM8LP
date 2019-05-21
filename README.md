@@ -1,4 +1,4 @@
-EnableGcam+FixFrontCamera-MI8Lite-Pie (Platina)
+Gcam Enabler for XiaomiMI8Lite
 -
 ncandroid84 @ xda-developers
 -
