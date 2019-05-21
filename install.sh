@@ -129,9 +129,9 @@ REPLACE="
 # Set what you want to display when installing your module
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "EnableGcam+FixFrontCamera-Mi8Lite-Pie"
-  ui_print "*******************************"
+  ui_print "******************************"
+  ui_print "Gcam Enable for Xiaomi MI8Lite"
+  ui_print "******************************"
 }
 
 # Copy/extract your module files into $MODPATH in on_install.
