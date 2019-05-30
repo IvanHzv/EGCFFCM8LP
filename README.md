@@ -20,6 +20,13 @@ Fix second back camera
 Fix whatsapp camera rotation crash
 
 --------------------------------------------------------------------------------------
+Update v1.3.1 29/05/2019
+
+Changes:
+
+Added a line in the fix second back camera
+
+--------------------------------------------------------------------------------------
 Descriptión:
 -
 This module is made for the Xiaomi MI 8 Lite (Platina), Android Pie 9.0 Stock and Custom Rom. Enable the Gcam adding some lines to the build.prop and Fix the front camera to work with the Gcam, adding the modified library for it.
