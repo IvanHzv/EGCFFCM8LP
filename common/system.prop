@@ -1,6 +1,8 @@
 # This file will be read by resetprop
 # Example: Change dpi
 # ro.sf.lcd_density=320
+
+# Enable camera 2API
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
 persist.camera.is_mode=4
@@ -9,3 +11,10 @@ persist.vendor.camera.HAL3.enabled=1
 persist.vendor.camera.eis.enable=1
 persist.vendor.camera.is_mode=4
 persist.vendor.camera.stats.test=5
+
+# Fix second back camera
+persist.camera.expose.aux=1
+vendor.camera.aux.packagelist=com.dual.GCam,com.Wide.GCam,com.Tele.GCam,org.codeaurora.snapcam,com.android.camera
+
+# Fix whatsapp camera rotation crash
+camera.hal1.packagelist=com.whatsapp
