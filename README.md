@@ -15,9 +15,8 @@ Update v1.3 29/05/2019
 
 Changes: 
 
-# Fix second back camera
-
-# Fix whatsapp camera rotation crash
+Fix second back camera
+Fix whatsapp camera rotation crash
 
 --------------------------------------------------------------------------------------
 Descriptión:
