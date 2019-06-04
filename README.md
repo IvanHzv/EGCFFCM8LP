@@ -27,6 +27,14 @@ Changes:
 Added a line in the fix second back camera
 
 --------------------------------------------------------------------------------------
+Update v1.4 04/06/2019
+
+Changes: 
+
+Fix! Two lines of the build.prop were eliminated,
+causing some phones to fail Gcam.
+
+--------------------------------------------------------------------------------------
 Descriptión:
 -
 This module is made for the Xiaomi MI 8 Lite (Platina), Android Pie 9.0 Stock and Custom Rom. Enable the Gcam adding some lines to the build.prop and Fix the front camera to work with the Gcam, adding the modified library for it.
