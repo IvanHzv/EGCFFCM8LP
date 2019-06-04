@@ -27,7 +27,7 @@ Changes:
 Added a line in the fix second back camera
 
 --------------------------------------------------------------------------------------
-Update v1.4 04/06/2019
+Update v1.4.1 04/06/2019
 
 Changes: 
 
